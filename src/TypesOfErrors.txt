@@ -1,0 +1,28 @@
+《常见异常报错》
+
+1. java.lang.NullPointerException   空指针异常
+当应用程序试图在需要对象的地方使用null时，抛出该异常。这种情况包括：
+    * 调用 null 对象的实例方法。
+    * 访问或修改 null 对象的字段。
+    * 将 null 作为一个数组，获得其长度。
+    * 将 null 作为一个数组，访问或修改其时间片。
+    * 将 null 作为 Throwable 值抛出。
+
+2. java.lang.ClassNotFoundException 指定的类不存在
+这里主要考虑一下类的名称和路径是否正确即可，如果是在eclipse等开发工具下做的程序包，
+一般都是默认加上Package的，所以转到WTK下后要注意把Package的路径加上。
+
+3、java.lang.ArithmeticException 数学运算异常
+比如程序中出现了除以零这样的运算就会出这样的异常，对这种异常，要检查一下自己程序中涉
+及到数学运算的地方，公式是不是有不妥。
+
+4、java.lang.ArrayIndexOutOfBoundsException  数组下标越界
+该异常的解释是“数组下标越界”，现在程序中大多都有对数组的操作，因此在调用数组的时候一
+定要认真检查，看自己调用的下标是不是超出了数组的范围。
+
+5、java.lang.IllegalArgumentException    方法的参数错误
+很多J2ME的类库中的方法在一些情况下都会引发这样的错误，比如音量调节方法中的音量参数如
+果写成负数就会出现这个异常。
+
+6、java.sql.SQLException Sql语句执行异常
+由数据库管理系统抛出至服务器，应检查sql语句是否书写正确等。

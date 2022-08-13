@@ -1,0 +1,7 @@
+StringBuilder概述
+    StringBuilder是一个可变的字符串类，我们可以把它看成是一个容器。
+    这里的可变指的是StringBuilder对象中的内容是可变的
+
+String和StringBuilder的区别：
+    String：内容是不可变的
+    StringBuilder：内容是可变的
