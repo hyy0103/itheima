@@ -1,6 +1,6 @@
 package Final;
 
-public class Zi extends Fu {
+public class Zi01 extends Fu01 {
 
 //    @Override
 //    public void method(){

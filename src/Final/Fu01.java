@@ -9,7 +9,7 @@ package Final;
 //
 //}
 
-public class Fu {
+public class Fu01 {
 
     //最终方法是不能被重写的
     public final void method(){
