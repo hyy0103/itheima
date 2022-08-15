@@ -1,4 +1,4 @@
-package Interface.Jumpping;
+package Interface.Jumpping01;
 
 public class Cat implements Jumpping{
 
