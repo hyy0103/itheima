@@ -18,7 +18,7 @@ public class AnimalDemo {
         a.eat();
 
 //        //创建Cat类的对象
-//        Cat c = new Cat();
+//        ParameterAndReturnValues.Cat c = new ParameterAndReturnValues.Cat();
 //        c.eat();
 //        c.playGame();
 

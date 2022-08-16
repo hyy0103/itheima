@@ -7,7 +7,7 @@ package Polymorphism.Animal02;
 public class AnimalOperator {
 
     /*
-    public void useAnimal(Cat c){   //Cat c = new Cat();
+    public void useAnimal(ParameterAndReturnValues.Cat c){   //ParameterAndReturnValues.Cat c = new ParameterAndReturnValues.Cat();
         c.eat();
     }
 
@@ -17,7 +17,7 @@ public class AnimalOperator {
      */
 
     public void useAnimal(Animal a){
-        //Animal a = new Cat();
+        //Animal a = new ParameterAndReturnValues.Cat();
         //Animal a = new Dog();
 
         a.eat();
